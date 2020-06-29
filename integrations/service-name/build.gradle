@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+group 'com.my.poc'
+version '0.0.1-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+dependencies {
+    compile project(':components:domain-name')
+    implementation "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
+    testImplementation "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
+}
