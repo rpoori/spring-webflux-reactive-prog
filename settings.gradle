@@ -1,5 +1,5 @@
 rootProject.name = 'spring-webflux-reactive-prog'
 include 'apis:sample-api'
-include 'components:domain-name'
-include 'integrations:service-name'
+include 'components:position'
+include 'integrations:position-store-impl'
 
